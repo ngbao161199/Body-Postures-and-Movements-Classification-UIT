@@ -1,7 +1,7 @@
 Phân tích bộ data Gesture
 
 Chia ra làm 2 phần:
-	Raw files VD(A1_raw)
+	Raw files VD(A1_raw):
 		Chứa các đặc trưng vị trí của các bộ phận cơ thể tong không gian 3 chiều (x,y,z)
 		lh (left hand)
 		rh (right hand)
@@ -18,11 +18,17 @@ Chia ra làm 2 phần:
 			-- Retraction
 	Process files
 		Chứa các vector chuyển động (hướng) của các bộ phận trên cơ thể 
-		Các nhãn dán được đánh số từ 1 => 12
-		1,2,3 là vector chuyển động(VCD) của left hand 
-		4,5,6 là VCD của right hand
-		7,8,9 là VCD của left wirst
-		10,11,12 là VCD của right wirst
+			Các nhãn dán được đánh số từ 1 => 12
+				1,2,3 là vector chuyển động(VCD) của left hand 
+				4,5,6 là VCD của right hand
+				7,8,9 là VCD của left wirst
+				10,11,12 là VCD của right wirst
 		Chứa các vector gia tốc của các bộ phận trên cơ thể
-		12,13,14 là Vector gia tốc của các 
-		
+			Các nhãn được đánh số từ 13 => 24
+				12,13,14 là Vector gia tốc(VGT) của left hand
+				15,16,17 là VGT của right hand
+				18,19,20 là VGT của left wirst
+				21,22,23 law vgt của right wirst
+		Chứa các vận tốc vô hướng của các vector
+			các nhãn được đánh số từ 25 => 32
+				
