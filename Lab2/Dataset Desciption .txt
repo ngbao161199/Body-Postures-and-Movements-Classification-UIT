@@ -31,4 +31,17 @@ Chia ra làm 2 phần:
 				21,22,23 law vgt của right wirst
 		Chứa các vận tốc vô hướng của các vector
 			các nhãn được đánh số từ 25 => 32
-				
+				Có sự lặp lại ở các thuộc tính (Data Description)
+					25,29 là VTVH của left hand
+					26,30 là VTVH của right hand
+					27,31 là VTVH của left wirst
+					28,32 là VTVH cuae right wirst
+		phase (output)
+			--(R) Rest
+			--(P) Preparation
+			--(S) Stroke
+			--(H) Hold
+			--(R) Retraction
+
+*Đánh giá:
+ 	Bộ data raw files là 1 bộ dữ liệu dược xây dựng để xác trạng thái người dựa trên các tọa độ vị trí, hướng, vận tốc của các bộ phận  	
