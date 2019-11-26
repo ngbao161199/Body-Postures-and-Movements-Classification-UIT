@@ -1,6 +1,8 @@
 # Classification-of-Body-Postures-and-Movements-UIT
+- Class: CS313.K11.KHCL
+- Lecturer: Ms. Nguyễn Thị Anh Thư
 
-Group 5:
+## Group 5:
 <ul>
     <li> Nguyễn Ôn Ngọc Bảo
     <li> Trần Việt Hùng
