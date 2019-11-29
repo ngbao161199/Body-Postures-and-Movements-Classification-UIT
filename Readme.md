@@ -45,5 +45,6 @@
     - [ ] Decorate this page
     
 - [ ] Build Contact landing Page **(contact.html)**
-    - [ ] Create a form for anyone to fill to connect with our team member.
+    - [X] Create a form for anyone to fill to connect with our team member.
     - [ ] Decorate this page
+![](https://i.imgur.com/IAEBZuo.png?1)
