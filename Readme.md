@@ -28,9 +28,13 @@
     - [X] On home landing page have chossing box for us to choose algorihm  and Submit button
     - [ ] With Submit button, we need it to redirrect to another page to show accuracy, MSE, cofusion_matrix,... of model **(Let's research)**
 
+![](https://i.imgur.com/N7N8qy5.png?1)
+
 - [X] Build About landing Page **(about.html)**
     - [X] Showing basic information about this project, lecturer and team member.
     - [ ] Decorate this page
+
+![](https://i.imgur.com/0ozuiUy.png?1)
 
 - [ ] Build Data Visualization landing Page **(data.html)**
     - [ ] Showing process of our team when process and modify the data.
