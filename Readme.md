@@ -39,7 +39,9 @@
 - [ ] Build Data Visualization landing Page **(data.html)**
     - [X] Showing process of our team when process and modify the data.
     - [ ] Decorate this page
-
+    
+ ![](https://i.imgur.com/tmvl3T8.png?1)
+    
 - [ ] Build Discover Algorithms landing Page **(algo.html)**
     - [ ] Showing infomation of algorithms we use and related research.
     - [ ] Decorate this page
