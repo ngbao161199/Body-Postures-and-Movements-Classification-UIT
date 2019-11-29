@@ -37,7 +37,7 @@
 ![](https://i.imgur.com/VOrEHiR.png?1)
 
 - [ ] Build Data Visualization landing Page **(data.html)**
-    - [ ] Showing process of our team when process and modify the data.
+    - [X] Showing process of our team when process and modify the data.
     - [ ] Decorate this page
 
 - [ ] Build Discover Algorithms landing Page **(algo.html)**
