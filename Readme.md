@@ -34,7 +34,7 @@
     - [X] Showing basic information about this project, lecturer and team member.
     - [ ] Decorate this page
 
-![](https://i.imgur.com/0ozuiUy.png?1)
+![](https://i.imgur.com/VOrEHiR.png?1)
 
 - [ ] Build Data Visualization landing Page **(data.html)**
     - [ ] Showing process of our team when process and modify the data.
