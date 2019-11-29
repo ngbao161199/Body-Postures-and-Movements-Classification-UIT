@@ -2,12 +2,14 @@
 - Class: CS313.K11.KHCL
 - Lecturer: Ms. Nguyễn Thị Anh Thư
 
-## Group 5:
+## Group 4:
 <ul>
     <li> Nguyễn Ôn Ngọc Bảo
     <li> Trần Việt Hùng
     <li> Nguyễn Tấn Phát
 </ul>
+
+![](https://i.imgur.com/N7N8qy5.png?1)
 
 ## Dataset we use:
 - PUC-Rio Data Set
