@@ -29,6 +29,14 @@ def index():
 def about():
     return render_template("/html/about.html")
 
+@app.route('/data')
+def data():
+    return render_template("/html/data.html")
+
+@app.route('/contact')
+def contact():
+    return render_template("/html/contact.html")
+
 if __name__ == '__main__':
   port = int(os.environ.get("PORT", 5000))
   app.run(debug=True, port=port)
