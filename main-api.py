@@ -1,7 +1,10 @@
 # Importing flask module in the project is mandatory 
 # An object of Flask class is our WSGI application. 
-from flask import Flask,render_template, request,redirect, url_for,flash, send_from_directory
+from flask import Flask,render_template, request,redirect, url_for,flash, send_from_directory, jsonify
 import os
+import pandas as pd
+import numpy as np
+import pickle #load model
 # Flask constructor takes the name of  
 # current module (__name__) as argument. 
 app = Flask(__name__) 
@@ -36,6 +39,22 @@ def data():
 @app.route('/contact')
 def contact():
     return render_template("/html/contact.html")
+
+model = pickle.load(open("./model/DCSTree.sav",'rb'))
+@app.route('/api',methods=['POST'])
+def predict():
+    # Get the data from the POST request.
+    data = request.get_json(force=True)
+
+    # Make prediction using model loaded from disk as per the data.
+    prediction = model.predict([[np.array(data['exp'])]])
+
+    # Take the first value of prediction
+    output = prediction[0]
+
+    return jsonify(output)
+
+
 
 if __name__ == '__main__':
   port = int(os.environ.get("PORT", 5000))
