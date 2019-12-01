@@ -26,7 +26,7 @@
 - [X] Build Home landing Page **(home.html)**
     - [X] On home landing page have slide image
     - [X] On home landing page have chossing box for us to choose algorihm  and Submit button
-    - [ ] With Submit button, we need it to redirrect to another page to show accuracy, MSE, cofusion_matrix,... of model **(Let's research)**
+    - [X] With Submit button, we need it to redirrect to another page to show accuracy, MSE, cofusion_matrix,... of model **(Let's research)**
 
 ![](https://i.imgur.com/N7N8qy5.png?1)
 
