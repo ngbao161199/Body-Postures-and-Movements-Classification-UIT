@@ -41,7 +41,7 @@
     - [X] Showing basic information about this project, lecturer and team member.
     - [X] Decorate this page
 
-![](https://i.imgur.com/VOrEHiR.png?1)
+![](https://i.imgur.com/i5j0hhC.png?1)
 
 - [X] Build Data Visualization landing Page **(data.html)**
     - [X] Showing process of our team when process and modify the data (Generated directly from Jupyter Notebook).
