@@ -154,45 +154,53 @@ img {vertical-align: middle;}
 
 </style>
 <body style="background-color:#FF99CC">
-  <center>
+  
+  
+  <!-- Top bar creating for website--> 
   <div class="topnav" id="myTopnav">
   <a class="active" href="#home.html">Home</a>
   <a href="about">About us</a>
-  <a href="#data.html">Data Visualization</a>
-  <a href="#algo.html">Discover Algorithms</a>
-  <a href="#contact.html">Contact</a>
+  <a href="data">Data Visualization</a>
+  <a href="algo">Test Algorithm (Manual)</a>
+  <a href="algo_with_file">Test Algorithm (Multiple)</a>
+  <a href="contact">Contact</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
 </div>
   
-  <h1><img src="http://icons.iconarchive.com/icons/iconsmind/outline/512/Smile-icon.png" width=35> Project: Body Postures and Movements Classification  <img src="http://icons.iconarchive.com/icons/iconsmind/outline/512/Smile-icon.png" width=35></h1>
-  
-  <form method=post enctype=multipart/form-data>
+  <center>
+	<h1>Project: Body Postures and Movements Classification</h1>
     <p> Choose an algorithm to discover this problem. </p>
-	<form>
-		<select id="algo" name="algo">
-			<option value="1">Bernoulli Naive Bayes</option>
-			<option value="2">Gaussian Naive Bayes</option>
-			<option value="3">Decision Tree</option>
-			<option value="4">K-Neighrest Neighbor</option>
-			<option value="5">Logistic Regression</option>
-		</select>
-	</form>
-	<br><br><br><br><br><br><br>
-	<input type="button" value="Submit"><br><br><br>
+    <!-- Create a simple form for user to choose algorithms -->
+    <form class="form-inline" method="POST" action="{{ url_for('result') }}">
+      <div class="form-group">
+        <div class="input-group">
+            <span class="input-group-addon">Please select</span>
+                <select name="algorithm" class="selectpicker form-control">
+                  {% for o in data %}
+                  <option value="{{ o.algo }}">{{ o.algo }}</option>
+                  {% endfor %}
+                </select>
+        </div> <br><br><br><br><br>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </form><br><br><br><br>
 	
-  </form>
+	
   {% block body %}{% endblock %}
   
+
+  <!-- Creating slideshow container that contain image -->
   <div class="slideshow-container">
 
+      <!-- First image -->
       <div class="mySlides fade">
         <div class="numbertext">1 / 2</div>
         <img src="https://wcc.gatech.edu/sites/default/files/motion%20forpapers.jpg" style="width:50%">
       </div>
       
-      
+      <!-- Second image -->
       <div class="mySlides fade">
         <div class="numbertext">2 / 2</div>
         <img src="https://codersera.com/blog/wp-content/uploads/2019/09/ml-1024x461.jpg" style="width:50%">
@@ -207,6 +215,8 @@ img {vertical-align: middle;}
       </div>
       
   <script>
+
+      // javascript code that run slide container
       var slideIndex = 0;
       showSlides();
       
