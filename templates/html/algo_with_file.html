@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="vi-vn">
+<meta charset="utf-8" />
+<head>
+    <span style="font-family:Arial">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Body Postures and Movements Classification</title>
+</head>
+
+<body style="background-color:#FF99CC">
+    <h1 class="mt-5">Body Postures and Movements Classification - Testing</h1>
+    <h3>Choose number of data you want to test!</h3>
+    <form class="form-inline" method="post" id="testing" enctype="multipart/form-data" action="{{ url_for('testing') }}">
+            <div>
+                <div>
+                    <label for="name">Number of data for testing</label>
+                    <input type="text" id="class" name="file" value= "Number of data for testing">
+                </div>
+                <div class="input-group">
+                        <span class="input-group-addon">Please select algorithm for using</span>
+                            <select name="mul_math" class="selectpicker form-control">
+                              {% for o in data %}
+                              <option value="{{ o.mul_math }}">{{ o.mul_math }}</option>
+                              {% endfor %}
+                            </select>
+                </div> <br><br><br><br><br>            
+            </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+</body>
+
+
+
