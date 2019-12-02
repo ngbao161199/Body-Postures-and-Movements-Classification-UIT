@@ -1,8 +1,77 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            Algo Discrovery
-        </title>
-    </head>
-</html>
+<!doctype html>
+<html lang="vi-vn">
+<meta charset="utf-8" />
+<head>
+    <span style="font-family:Arial">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Body Postures and Movements Classification</title>
+</head>
+
+<body style="background-color:#FF99CC">
+    <h1 class="mt-5">Body Postures and Movements Classification - Testing</h1>
+    <h3>Input sensor data!</h3>
+    <form class="form-inline" method="post" id="algo_predict" action="{{ url_for('test') }}">
+        <div class="form-group">
+        <div>
+            <label for="name">x1</label>
+            <input type="text" id="class" name="x1" value= "x1">
+        </div>
+        <div>
+            <label for="name">y1</label>
+            <input type="text" id="class" name="y1" value= "y1">
+        </div>
+        <div>
+            <label for="name">z1</label>
+            <input type="text" id="class" name="z1" value= "z1">
+        </div>
+        <div>
+            <label for="name">x2</label>
+            <input type="text" id="class" name="x2" value= "x2">
+        </div>
+        <div>
+            <label for="name">y2</label>
+            <input type="text" id="class" name="y2" value= "y2">
+        </div>
+        <div>
+            <label for="name">z2</label>
+            <input type="text" id="class" name="z2" value= "z2">
+        </div>
+        <div>
+            <label for="name">x3</label>
+            <input type="text" id="class" name="x3" value= "x3">
+        </div>
+        <div>
+            <label for="name">y3</label>
+            <input type="text" id="class" name="y3" value= "y3">
+        </div>
+        <div>
+            <label for="name">z3</label>
+            <input type="text" id="class" name="z3" value= "z3">
+        </div>
+        <div>
+            <label for="name">x4</label>
+            <input type="text" id="class" name="x4" value= "x4">
+        </div>
+        <div>
+            <label for="name">y4</label>
+            <input type="text" id="class" name="y4" value= "y4">
+        </div>
+        <div>
+            <label for="name">z4</label>
+            <input type="text" id="class" name="z4" value= "z4">
+        </div>
+
+        <div class="input-group">
+            <span class="input-group-addon">Please select algorithm for using</span>
+                <select name="math" class="selectpicker form-control">
+                  {% for o in data %}
+                  <option value="{{ o.math }}">{{ o.math }}</option>
+                  {% endfor %}
+                </select>
+        </div> <br><br><br><br><br>
+
+        <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+    </form>
+</body>
