@@ -9,7 +9,7 @@
     <li> Nguyễn Tấn Phát
 </ul>
 
-![](https://i.imgur.com/N7N8qy5.png?1)
+![](https://camo.githubusercontent.com/65858ba290493d538f380d452b846488c221b17e/68747470733a2f2f692e696d6775722e636f6d2f69356a306868432e706e673f31)
 
 ## Requirements packages for project:
 - Flask==1.0.2
@@ -35,13 +35,13 @@
     - [X] On home landing page have chossing box for us to choose algorihm  and Submit button
     - [X] With Submit button, we need it to redirrect to another page to show accuracy, MSE, cofusion_matrix,... of model in JSON format.
 
-![](https://i.imgur.com/N7N8qy5.png?1)
+![](https://camo.githubusercontent.com/65858ba290493d538f380d452b846488c221b17e/68747470733a2f2f692e696d6775722e636f6d2f69356a306868432e706e673f31)
 
 - [X] Build About landing Page **(about.html)**
     - [X] Showing basic information about this project, lecturer and team member.
     - [X] Decorate this page
 
-![](https://i.imgur.com/i5j0hhC.png?1)
+![](https://i.imgur.com/X4L7JnI.png?1)
 
 - [X] Build Data Visualization landing Page **(data.html)**
     - [X] Showing process of our team when process and modify the data (Generated directly from Jupyter Notebook).
